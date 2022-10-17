@@ -1,0 +1,74 @@
+ body{
+    zoom:88%;
+    height:100%;
+    background-color:#CCEAFF;
+    background-image: url('/static/svg/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: black;
+    height: 3rem;
+    display:flex;
+    align-items: center;
+}
+#name{
+    width:10rem;
+    margin-left: 2%;
+}
+#BWprintPDF1{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height:7rem;
+
+}
+#BWprintPDF2{
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    height:10rem;
+
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-left:10%;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+img:hover{
+    cursor:pointer;
+    /* outline: 2px solid #fff700;
+    radi */
+
+}
+#BWprintPDF2{
+    display: none;
+    }
+    
+    @media only screen and (max-width: 500px){
+    #BWprintPDF1{
+        display: none;
+    }
+    
+    #BWprintPDF2{
+        display: block;
+    }
+    }

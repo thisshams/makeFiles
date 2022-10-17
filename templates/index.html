@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet">
+    <link rel="icon" href="{{url_for('static', filename='svg/makeFilesIcon.png')}}" type="image/x-icon">
+    <title>makeFiles</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <a id="name" class="navbar-brand" href="#">
+                        <img src="{{url_for('static', filename='svg/name.svg')}}" height="30"
+                            class="d-inline-block align-top" alt="">
+                    </a>
+                </div>
+                <div class="col-4 d-flex justify-content-between">
+                    <a id="linkedin" class=" navbar-brand" href="https://www.linkedin.com/in/thisshams/" target="blank">
+                        <img src="{{url_for('static', filename='svg/LinkedIn.png')}}" height="30" alt="">
+                    </a>
+                    <a id="github" class=" navbar-brand" href="https://github.com/thisshams" target="blank">
+                        <img src="{{url_for('static', filename='svg/GitHub.png')}}" height="30" alt="">
+                    </a>
+                    <a id="hackerrank" class="navbar-brand" href="https://www.hackerrank.com/thisshams" target="blank">
+                        <img src="{{url_for('static', filename='svg/Hackerrank.png')}}" height="30" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <a href="/BWprintPDF">
+        <img id="BWprintPDF1" src="{{url_for('static', filename='svg/BWprintPDF.png')}}">
+    </a>
+    <a href="/BWprintPDF">
+        <img id="BWprintPDF2" src="{{url_for('static', filename='svg/BWprintPDFmobile.png')}}">
+    </a>
+
+    <!-- Image related work -->
+
+    <p>Image</p>
+    <div class="container-fluid">
+        <div class="row p-0 row2">
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/compressImageLossless">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/compressImageLossless.svg')}}">
+                </a>
+
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/PNGtoJPG">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/PNGtoJPG.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/JPGtoPNG">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/JPGtoPNG.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/compressImageLossy">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/compressImageLossy.svg')}}">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PDF related work -->
+
+    <p>PDF</p>
+    <div class="container-fluid">
+        <div class="row p-0 row2">
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/compressPDF">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/compressPDF.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/mergePDF">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/mergePDF.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/JPGtoPDF">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/JPGtoPDF.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/pagenumber">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/pageNumber.svg')}}">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-7 box">
+                <a href="/wordtoPDF">
+                    <img class="imagesall" src="{{url_for('static', filename='svg/wordtoPDF.svg')}}">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
