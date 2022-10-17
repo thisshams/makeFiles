@@ -1,0 +1,8 @@
+flask
+pillow
+pylovepdf_flavor
+pymupdf
+opencv-python
+fpdf
+img2pdf
+werkzeug
