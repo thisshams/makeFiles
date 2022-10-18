@@ -2,7 +2,7 @@ flask
 pillow
 pylovepdf_flavor
 pymupdf
-opencv-python
+opencv-python-headless
 fpdf
 img2pdf
 werkzeug
